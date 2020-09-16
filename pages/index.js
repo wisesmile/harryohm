@@ -10,19 +10,24 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://harryohm.vercel.app/">Harry Ohm!</a>
-        </h1>
-
+        <h1 className={styles.title}>Welcome to Harry Ohm!</h1>
         <p className={styles.description}>Another Yoga Teacher Website</p>
 
         <div className={styles.grid}>
-          <a href="https://yogawithpaz.com/" className={styles.card}>
+          <a
+            href="https://yogawithpaz.com/"
+            className={styles.card}
+            target="_new"
+          >
             <h3>Old Site #1</h3>
             <p>An earlier site.</p>
           </a>
 
-          <a href="https://www.ramdass.org/" className={styles.card}>
+          <a
+            href="https://www.ramdass.org/"
+            className={styles.card}
+            target="_new"
+          >
             <h3>Ram Dass </h3>
             <p>Ramdass.org </p>
           </a>
