@@ -5,26 +5,26 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Harry Ohm Yoga</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Harry Ohm!</a>
+          Welcome to <a href="https://harryohm.vercel.app/">Harry Ohm!</a>
         </h1>
 
         <p className={styles.description}>Another Yoga Teacher Website</p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://yogawithpaz.com/" className={styles.card}>
+            <h3>Old Site #1</h3>
+            <p>An earlier site.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="https://www.ramdass.org/" className={styles.card}>
+            <h3>Ram Dass </h3>
+            <p>Ramdass.org </p>
           </a>
         </div>
       </main>
