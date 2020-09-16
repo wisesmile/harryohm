@@ -23,6 +23,10 @@ export default function Home() {
             <p>An earlier site.</p>
           </a>
 
+          <a href="/about" className={styles.card} target="_new">
+            <h3>About</h3>
+            <p>Lorem</p>
+          </a>
           <a
             href="https://www.ramdass.org/"
             className={styles.card}
